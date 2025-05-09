@@ -52,7 +52,7 @@ const handleSubmit = async (event) => {
     setInput('');
     setWeather({ ...weather, loading: true });
     const url = 'https://api.openweathermap.org/data/2.5/weather';
-    const api_key = '01e29a00169a045ff26eb556c36f53c6';
+    const api_key = '';
     await axios
         .get(url, {
             params: {
